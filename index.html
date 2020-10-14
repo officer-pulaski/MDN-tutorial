@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Site MDN Docs</title>
+  <meta name="author" content="officer-pulaski" />
+  <meta name="description" content="A text website for the MDN Docs tutorial" />
+  <meta name="keywords" content="html, css, javascript" />
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="" href="./images/firefox-logo.png">
+</head>
+<body>
+  <div>
+    <div class="selectors">
+      <form>
+        <div class="form-choice">
+          Background Color: <select class="background">
+            <option value="none">none</option>
+          </select>
+        <div class="form-choice">
+          Foreground Color: <select class="foreground">
+            <option value="none">none</option>
+          </select>
+        </div>
+        <div class="form-choice">
+          <input type="submit" value="Submit" id="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="page-title">
+    <h1 >This is my test site for MDN Docs tutorial</h1>
+  </div>
+  <div id="main-img">
+    <img src="./images/firefox-logo.png" alt="firefox logo">
+  </div>
+  <div id="paragraphs">
+    <p class="para-main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero asperiores, soluta nisi ad a quas perferendis architecto sint consequatur magnam praesentium id neque autem nam laudantium cupiditate porro blanditiis reprehenderit.</p>
+    <p class="para-main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero asperiores, soluta nisi ad a quas perferendis architecto sint consequatur magnam praesentium id neque autem nam laudantium cupiditate porro blanditiis reprehenderit.</p>
+    <p class="para-main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero asperiores, soluta nisi ad a quas perferendis architecto sint consequatur magnam praesentium id neque autem nam laudantium cupiditate porro blanditiis reprehenderit.</p>
+  </div>
+  <div id="list">
+    <div class="list-group">
+      <div class="list-title">
+        <h3>A List of Fruits</h3>
+      </div>
+      <div class="list-body"> 
+        <ul>
+          <li>🍋 Lemons 🍋</li>
+          <li>🍍 Pineapples 🍍</li>
+          <li>🍌 Bananas 🍌</li>
+          <li>🍊 Oranges 🍊</li>
+          <li>🥭 Mangoes 🥭</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="links">
+    <div class="btn">
+      <p class="para-main link-txt">Click <a href="https://www.google.co.uk" title="Go on, click me!" target="_blank">here</a> to find out more</p>
+    </div>
+    <div id="my-btns">
+      <button type="button" class="to-top">Back to top</button>
+      <button class="change-user">Change User</button>
+    </div>
+  </div>
+  
+  <script defer src="./scripts/main.js" type="module"></script>
+</body>
+</html>
